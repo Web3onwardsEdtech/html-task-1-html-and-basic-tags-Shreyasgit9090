@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: black;
+    color: white;
+}
+
+/* Header + Navigation */
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #111;
+    position: sticky;
+    top: 0;
+}
+
+.profile-icon {
+    margin-right: auto;
+    color: #00ffe7;
+}
+
+.nav a,
+nav a {
+    color: #00ffe7;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav a:hover,
+nav a:hover {
+    color: #ffd700;
+}
+
+/* Container Section */
+.container {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* Headings */
+h1, h2, h3 {
+    color: #00ffe7;
+}
+
+.profile-right h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.profile-right h2 {
+    color: #ffd700;
+    margin-top: 20px;
+}
+
+/* Paragraphs */
+p, .profile-right p {
+    line-height: 1.6;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+/* Lists */
+.profile-right ul {
+    margin-left: 20px;
+    line-height: 1.6;
+}
+
+/* Profile Section */
+.container.profile-section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.profile-left {
+    flex: 0 0 200px;
+}
+
+.profile-pic {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #00ffe7;
+}
+
+.profile-right {
+    flex: 1;
+    min-width: 300px;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    background-color: #00ffe7;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ffd700;
+}
+
+/* Work Images */
+img.work-img {
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid #333;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/* Contact Icons */
+.contact-info i {
+    margin-right: 10px;
+    color: #ffd700;
+}
